@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap');
+*{
+    margin: 0;padding: 0;
+    box-sizing: border-box;
+    font-family: 'Rubik', sans-serif; 
+}
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(45deg,#0a0a0a,#5c6776);
+
+}
+.calculator{
+    /* border: 2px solid brown; */
+    padding: 20px;
+    border-radius: 1rem;
+    box-shadow: 0px 3px 15px white;
+}
+input{
+    width: 95%;
+    height: 50px;
+    border: none;
+    padding:3px;
+    margin: 10px;
+    background: transparent;
+    box-shadow: 0px 3px 15px rgb(104, 103, 103);
+    font-size: 30px;
+    /* align-items: center; */
+    text-align: right;
+    color: azure;
+}
+input::placeholder{
+    color: azure;
+}
+button{
+    border: none;
+    width: 70px;
+    height: 70px;
+    margin: 10px;
+    border-radius: 50%;
+    background: transparent;
+    color: azure;
+    font-size: 20px;
+    box-shadow: -8px -8px 15px rgb(104, 103, 103);
+}
+.equalbtn{
+    background-color: rgb(255, 153, 0);
+}
+.operator{
+    color: rgb(20, 207, 20);
+}
